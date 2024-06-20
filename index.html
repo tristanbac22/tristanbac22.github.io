@@ -1,10 +1,62 @@
 <!DOCTYPE html>
 <html>
+<head>
+  <title>My Portfolio</title>
+  <meta name="viewport" content="device-width"/>
+  <link rel="stylesheet" href="./style.css">
+</head>
 
 <body>
-  <h1>Tristan B.</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
+  <header>
+    <nav>
+      <h1>Tristan B.</h1>
+      <ul role="presentation">
+        <li><a href="#about-me">About Me</a></li>
+        <li><a>Profile</a></li>
+        <li><a>Projects</a></li>
+        <li><a>Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="container about-me">
+      <section class="description">
+        <h2>About Me</h2>
+        <p>Write a detailed overview of me</p>
+      </section>
+      <div class="profile-pic">
+        <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" alt="Tristan Bachalo profile picture"/>
+      </div>
+    </section>
+  
+    <section class="container projects">
+      <h2>Projects</h2>
+      <section class="project-list">
+        <ul role="presentation">
+          <li>Armchair Commentator</li>
+          <li>Office Crime</li>
+  
+        </ul>
+      </section>
+      <section class="project-overview">
+        <h3 class="project-name">Title</h3>
+        <p> A brief overview of the project and the tech used</p>
+        <p><a>Github Repository</a></p>
+      </section>
+    </section>
+  
+    <section class="container Contact">
+      <h2>Contact</h2>
+      <p>Interested in hearing more about these projects, reach out to me at: </p>
+      <ul>
+        <li>LinkedIn Icon</li>
+        <li>Github Icon</li>
+        <li>Email Icon</li>
+      </ul>
+    </section>
+  </main>
+  
 </body>
 
 </html>
