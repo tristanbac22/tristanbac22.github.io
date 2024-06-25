@@ -1,0 +1,141 @@
+html, body{
+    height: 100%;
+    color: black;
+    font-size: 16px;
+    background-color: lightgrey;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3{
+    font-family: "Merriweather", sans-serif;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+.container{
+    position: relative;
+    margin: 0.5rem;
+}
+
+header{
+    position: fixed;
+    z-index: 100;
+    top: 0px;
+    width: 100%;
+    border-bottom: 2px solid black;
+    margin: 0.5rem;
+    background-color: lightseagreen;
+}
+
+header .container{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5rem 1.5rem;
+    width: 95%;
+}
+
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+nav li{
+    margin: 1.5rem;
+}
+
+nav a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+    vertical-align: bottom;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+main{
+    position: relative;
+    top: 8.5rem;
+    left: 0px
+}
+
+.about-me{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.projects{
+    position: relative;
+}
+
+.skills{
+    position: relative;
+}
+
+
+.merriweather-light {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .merriweather-regular {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .merriweather-bold {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .merriweather-black {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .merriweather-light-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .merriweather-regular-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .merriweather-bold-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .merriweather-black-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+
+.open-sans-default {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
