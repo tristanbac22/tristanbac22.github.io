@@ -1,4 +1,4 @@
-html, body{
+html{
     height: 100%;
     color: black;
     font-size: 16px;
@@ -7,6 +7,7 @@ html, body{
 
 body {
     font-family: "Open Sans", sans-serif;
+    background-color: lightsteelblue;
 }
 
 h1, h2, h3{
@@ -74,12 +75,39 @@ main{
     align-items: center; 
 }
 
+
 .projects{
     position: relative;
+    
+}
+
+table{
+  background-color: whitesmoke;
+  border: solid 1px black;
+}
+
+td{
+  border: solid 1px black;
+  padding: 0.5rem;
 }
 
 .skills{
     position: relative;
+    
+}
+
+.skills-list{
+  list-style-type: none;
+}
+
+.skills-list li{
+  display: inline-block;
+  padding-right: 1rem;
+}
+
+.skill-icon{
+  height: 4rem;
+  width: 4rem;
 }
 
 
