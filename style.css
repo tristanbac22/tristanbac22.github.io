@@ -1,12 +1,18 @@
 html{
     color: black;
     font-size: 16px;
-    background-color: lightgrey;
+    background-color: #1911EE;
 }
 
 body {
     font-family: "Open Sans", sans-serif;
-    background-color: lightsteelblue;
+    background-color:#1911EE;
+}
+
+main{
+  font-family: "Open Sans", sans-serif;
+  background-color: lightskyblue;
+  width: 100%;
 }
 
 h1, h2, h3{
@@ -19,7 +25,8 @@ h1{
 
 .container{
     position: relative;
-    margin: 0.5rem;
+    padding: 1rem;
+    width: 100%
 }
 
 header{
@@ -27,16 +34,15 @@ header{
     z-index: 100;
     top: 0px;
     width: 100%;
+    left: 0px;
     border-bottom: 2px solid black;
-    margin: 0.5rem;
-    background-color: lightseagreen;
+    background-color: #1178EE;
 }
 
 header .container{
     display: inline-flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0.5rem 1.5rem;
     width: 95%;
 }
 
@@ -72,22 +78,46 @@ main{
     display: inline-flex;
     justify-content: space-between;
     align-items: center; 
+    max-width: 98%;
 }
 
+.profile-pic{
+  flex: 1 2 auto;
+  
+}
+
+#profile-portrait{
+  max-width: inherit;
+  max-height: inherit;
+  height: inherit;
+  width: inherit;
+  object-fit: cover;
+}
+
+img{
+  width: 100%;
+  height: 100%;
+}
 
 .projects{
     position: relative;
-    
+    max-width: 98%;
 }
 
 table{
-  background-color: whitesmoke;
+  background-color: #ffffff;
   border: solid 1px black;
+  overflow: auto;
+}
+
+.proj-title:hover {
+  text-decoration: underline;
 }
 
 td{
   border: solid 1px black;
   padding: 0.5rem;
+  overflow: auto;
 }
 
 .skills{

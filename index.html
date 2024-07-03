@@ -48,31 +48,32 @@
         </p>
       </div>
       <div class="profile-pic">
-        <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" alt="Tristan Bachalo profile picture"/>
+        <img id="profile-portrait" src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" alt="Tristan Bachalo profile picture"/>
       </div>
     </section>
   
     <section class="container projects">
       <h2>Projects</h2>
-      <table class="project-table">
+      <table class="project-table" id="projTable">
         <tr>
-          <td>Armchair Commentator</td>
-          <td rowspan="2">
+          <td class="proj-title">Armchair Commentator</td>
+          <td id="project-summary" rowspan="3">
             <section class="project-overview">
-              <h3 class="project-name">Armchair Commentator</h3>
-              <p class="project-description"> My first javascript code that produces a message
+              <h3 id="project-name" >Armchair Commentator</h3>
+              <p id="project-description" > My first javascript code that produces a message
                  of random strings to create a message of comments people will say to their 
                  television while watching live sports. This was a silly project to demonstrate 
                  my understanding of the basics of javascript.</p>
-              <p><a class="repository-link" href="https://github.com/tristanbac22/Armchair-Commentator">Github Repository</a></p>
+              <p><a id="repository-link" href="https://github.com/tristanbac22/Armchair-Commentator">Github Repository</a></p>
             </section>
           </td>
         </tr>
         <tr>
-          <td>Office Crime</td>
+          <td class="proj-title">Office Crime</td>
         </tr>
-        
-
+        <tr>
+          <td class="proj-title">NYC Schools</td>
+        </tr>
       </table>
     </section>
     
@@ -124,6 +125,7 @@
     </section>
   </main>
   
+  <script type="text/javascript" src="./table-update.js"></script>
 </body>
 
 </html>
