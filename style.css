@@ -44,20 +44,27 @@ header .container{
     justify-content: space-between;
     align-items: center;
     width: 95%;
+    height: 80px;
+    margin: 1rem;
 }
 
 .mobile{
   display: none;
 }
 
+nav{
+  margin-right: 2rem;
+}
+
 nav ul{
     display: flex;
     list-style-type: none;
-    justify-content: space-around;
+    justify-content: start;
+    padding-inline-start: 0px;
 }
 
 nav li{
-    margin: 1.5rem;
+    margin: 1rem;
 }
 
 nav a{
@@ -112,15 +119,16 @@ main{
 }
 
 .about-me{
-  
+  margin: 1rem;
   
 }
 
 .profile-pic{
   float: right;
   margin: 0.50rem;
-  max-width: 70%;
-  padding-left: 3rem;
+  max-width: 50%;
+  max-height: 50%;
+  padding: 2rem;
 }
 
 .description{
@@ -134,6 +142,7 @@ main{
   height: inherit;
   width: inherit;
   object-fit: cover;
+  margin-left: 25%;
 }
 
 img{
